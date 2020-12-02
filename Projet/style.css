@@ -1,11 +1,41 @@
-.entête .nom {
+.name {
     font-size: 36px;
     font-family: 'Montserrat', sans-serif;
-    color: #888888;
+    color: #ffffff;
+    padding-left: 50%;
+    padding-top: 5%;
 }
 
-.entête .statut {
-    font-size: 13.6px;
+
+.statut {
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    color: #888888;
+    color: #ffffff;
+    padding-left: 50%;
+}
+
+
+.top {
+    background-color: #90a4ff;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.leftBlock {
+    float: left;
+    margin: 20%;
+}
+
+.rightBlock {
+    float: right;
+    margin-left: -50%;
+    background-color: #efefefef;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
