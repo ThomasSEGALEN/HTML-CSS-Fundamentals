@@ -1,0 +1,11 @@
+.entête .nom {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    color: #888888;
+}
+
+.entête .statut {
+    font-size: 13.6px;
+    font-family: 'Montserrat', sans-serif;
+    color: #888888;
+}
