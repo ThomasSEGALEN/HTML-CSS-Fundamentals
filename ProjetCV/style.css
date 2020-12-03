@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    background-color: #b2f7ef;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    color: white;
+}
+
+.leftBlock {
+    float: left;
+    background-color: #90a4ff;
+    margin-left: 25%;
+    padding: 2%;
+    box-shadow: 3px 3px 3px 0px #ffffff;
+}
+
+.picture {
+    padding-top: 12%;
+    padding-left: 25%;
+    padding-bottom: 12%;
+}
+
+.name {
+    font-size: 25px;
+    color: white;
+}
+
+.name .subname {
+    font-size: 15px;
+}
+
+.supertitle {
+    font-size: 23px;
+    color: #c8e7ff;
+    padding-top: 10%;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.leftBlock .uppertitle {
+    font-size: 23px;
+    color: #c8e7ff;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.aboutme {
+    font-size: 13px;
+    color: #e6e6e6;
+}
+
+.location {
+    font-size: 13px;
+    color: #e6e6e6;
+}
+
+.hobbies {
+    font-size: 13px;
+    color: #e6e6e6;
+}
+
+.leftBar {
+    
+    box-shadow: 2px 2px 2px 0px #ffffff;
+}
+
+.rightBlock {
+    float: right;
+    background-color: #c0fdff;
+    margin-right: -25%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    box-shadow: 3px 3px 3px 0px #ffffff;
+}
+
+.rightBlock .uppertitle {
+    font-size: 23px;
+    color: #9fb0fd;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.rightBlock .title {
+    font-size: 20px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #585656;
+}
+
+.rightBlock .text {
+    font-size: 13px;
+    color: #585656;
+}
+
+.rightBlock .rightBar {
+    background-color: ##90a4ff;
+    box-shadow: 2px 2px 2px 0px #ffffff;
+}
