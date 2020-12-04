@@ -26,25 +26,25 @@ a:hover {
 .name {
     font-size: 25px;
     color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px grey;
 }
 
 .name .subname {
     font-size: 15px;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px grey;
 }
 
 .supertitle {
     font-size: 23px;
     color: #c0fdff;
     padding-top: 10%;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px #72f0f5;
 }
 
 .leftBlock .uppertitle {
     font-size: 23px;
     color: #c0fdff;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px #72f0f5;
 }
 
 .aboutme {
@@ -63,7 +63,7 @@ a:hover {
 }
 
 .leftBar {
-    box-shadow: 2px 2px 2px 0px white;
+    box-shadow: 2px 2px 0px 0px #72f0f5;
 }
 
 .rightBlock {
@@ -78,7 +78,7 @@ a:hover {
 .rightBlock .uppertitle {
     font-size: 23px;
     color: #90a4ff;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px #5272fd;
 }
 
 .rightBlock .title {
@@ -96,5 +96,5 @@ a:hover {
 }
 
 .rightBlock .rightBar {
-    box-shadow: 2px 2px 2px 0px white;
+    box-shadow: 2px 2px 0px 0px #5272fd;
 }
