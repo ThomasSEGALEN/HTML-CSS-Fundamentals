@@ -61,6 +61,10 @@ a:hover {
     color: #e6e6e6;
 }
 
+.location a {
+    color: white;
+}
+
 .hobbies {
     font-size: 13px;
     color: #e6e6e6;
