@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    background-color: #b2f7ef;
+    background-color: white;
     transition: width 2s, height 2s, background-color 2s, transform 2s;
     font-family: 'Montserrat', sans-serif;
     padding: 50px;
@@ -15,7 +15,6 @@ a:hover {
     background-color: #90a4ff;
     margin-left: 25%;
     padding: 2%;
-    box-shadow: 3px 3px 3px 0px white;
 }
 
 .picture {
@@ -74,7 +73,6 @@ a:hover {
     padding-right: 2%;
     padding-left: 2%;
     padding-bottom: 1%;
-    box-shadow: 3px 3px 3px 0px white;
 }
 
 .rightBlock .uppertitle {
