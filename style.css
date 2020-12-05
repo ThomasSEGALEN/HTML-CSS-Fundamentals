@@ -30,6 +30,7 @@ a:hover {
     font-size: 25px;
     color: white;
     text-shadow: 2px 2px grey;
+    padding-right: auto;
 }
 
 .name .subname {
