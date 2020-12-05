@@ -3,8 +3,6 @@
     background-color: white;
     transition: width 2s, height 2s, background-color 2s, transform 2s;
     font-family: 'Montserrat', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 a {
@@ -30,7 +28,6 @@ a:hover {
     font-size: 25px;
     color: white;
     text-shadow: 2px 2px grey;
-    text-align: center;
 }
 
 .name .subname {
