@@ -1,12 +1,13 @@
 .container {
     display: flex;
     background-color: white;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    /* transition: width 2s, height 2s, background-color 2s, transform 2s; */
     font-family: 'Montserrat', sans-serif;
 }
 
 a {
     text-decoration: none;
+    padding-right: 1px;
 }
 
 a:hover {
@@ -17,11 +18,18 @@ a:hover {
     float: left;
     background-color: #90a4ff;
     padding: 2%;
+    overflow-x: auto;
 }
 
 .picture {
     padding-bottom: 12%;
     padding-left: 10%;
+}
+
+.rectangle {
+    width:170px;
+    height:170px;
+    background-color:#c0fdff;
 }
 
 .name {
@@ -36,14 +44,15 @@ a:hover {
 }
 
 .supertitle {
-    font-size: 23px;
+    font-size: 21px;
     color: #c0fdff;
     padding-top: 10%;
     text-shadow: 1px 1px #72f0f5;
 }
 
 .leftBlock .uppertitle {
-    font-size: 23px;
+
+    font-size: 21px;
     color: #c0fdff;
     text-shadow: 1px 1px #72f0f5;
 }
@@ -78,16 +87,17 @@ a:hover {
     padding-right: 2%;
     padding-left: 2%;
     padding-bottom: 1%;
+    overflow-x: auto;
 }
 
 .rightBlock .uppertitle {
-    font-size: 23px;
+    font-size: 21px;
     color: #90a4ff;
     text-shadow: 1px 1px #5272fd;
 }
 
 .rightBlock .title {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .rightBlock .subtitle {
