@@ -88,7 +88,7 @@ div[class*=box] {
 }
 
 .btn-three {
-  color: #white;
+  color: white;
   transition: all 0.5s;
   position: relative;
 }
