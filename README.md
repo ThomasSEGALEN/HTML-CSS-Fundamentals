@@ -1,4 +1,6 @@
-# Sommaire :
+# Projet CV - HTML/CSS  
+  
+## Sommaire :
 
 1. [Préambule](README.md#1-préambule-)  
 2. [Sujet](README.md#2-sujet-)  
