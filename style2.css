@@ -162,6 +162,10 @@ img {
 
 @media screen and (max-width: 800px) {
     .socialmedia-download {
-        padding-top: 100px;
+        padding-top: 50px;
+    }
+
+    .box-button {
+        padding-top: 50px;
     }
   } 
