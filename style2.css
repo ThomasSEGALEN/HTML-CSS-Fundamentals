@@ -107,6 +107,8 @@ img {
 .socialmedia-download {
     display: flex;
     justify-content: space-evenly;
+    padding-right: 20%;
+    padding-left: 20%;
 }
   
 .box-1 img {
