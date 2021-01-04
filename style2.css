@@ -160,3 +160,8 @@ img {
     filter: invert(100%);
 }
 
+@media screen and (max-width: 800px) {
+    .socialmedia-download {
+        padding-top: 100px;
+    }
+  } 
