@@ -155,6 +155,11 @@ img {
 }
 
 @media screen and (max-width: 800px) {
+    html,
+    body {
+        overflow-x: auto;  
+    }
+
     .socialmedia-download {
         padding-right: 20%;
         padding-left: 20%;
@@ -173,6 +178,6 @@ img {
     }
 
     .text {
-        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
   } 
