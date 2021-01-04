@@ -154,12 +154,14 @@ img {
     filter: invert(100%);
 }
 
-@media screen and (max-width: 800px) {
-    html,
-    body {
-        overflow-x: auto;  
+@media screen and (max-width: 1100) {
+    .socialmedia-download {
+        padding-right: 20%;
+        padding-left: 20%;
+        padding-top: 50px;
     }
 
+@media screen and (max-width: 800px) {
     .socialmedia-download {
         padding-right: 20%;
         padding-left: 20%;
@@ -173,11 +175,13 @@ img {
     img {
         width: 70px;
         height: 70px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .text {
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 50px;
     }
   } 
