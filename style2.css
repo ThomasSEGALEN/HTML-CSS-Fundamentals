@@ -160,6 +160,7 @@ img {
         padding-left: 20%;
         padding-top: 50px;
     }
+}
 
 @media screen and (max-width: 800px) {
     .socialmedia-download {
