@@ -113,11 +113,13 @@ a:hover {
     box-shadow: 2px 2px 0px 0px #5272fd;
 }
 
-@media screen and (min-width: 800px) {
-    .picture {
-        padding-top: 10%;
-        padding-bottom: 12%;
-        padding-left: 10%;
-        padding-right: 12%;
+@media screen and (max-width: 800px) {
+    .rectangle {
+        width:120px;
+        height:120px;
+    }
+
+    .leftBlock {
+        padding-right: 50px;
     }
   } 
