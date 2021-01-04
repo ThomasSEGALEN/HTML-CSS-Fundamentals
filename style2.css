@@ -112,40 +112,34 @@ img {
 }
   
 .box-1 img {
-    background-color: #90a4ff;
-    box-shadow: 10px 10px #5272fd;
-    border-radius: 80px;
+    border-radius: 90px;
     transition: all 1s ease;
 }
 
 .box-2 img {
-    background-color: #90a4ff;
-    box-shadow: 10px 10px #5272fd;
-    border-radius: 80px;
+    border-radius: 90px;
     transition: all 1s ease;
 }
 
 .box-3 img {
-    background-color: #90a4ff;
-    box-shadow: 10px 10px #5272fd;
-    border-radius: 80px;
+    border-radius: 90px;
     transition: all 1s ease;
 }
   
 .box-1:hover img {
-    background-color: white;
+    filter: invert(100%);
     border-radius: 10px;
     transform:scale(1.25);
 }
 
 .box-2:hover img {
-    background-color: white;
+    filter: invert(100%);
     border-radius: 10px;
     transform:scale(1.25);
 }
 
 .box-3:hover img {
-    background-color: white;
+    filter: invert(100%);
     border-radius: 10px;
     transform:scale(1.25);
 }
