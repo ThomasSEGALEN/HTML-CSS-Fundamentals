@@ -51,7 +51,7 @@ a {
     margin-right: auto;
     border-radius: 10px;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .skill h3 {
@@ -177,20 +177,17 @@ img {
 }
 
 .box-1 img {
-    border: 2px solid transparent
-    border-radius: 90px;
+    border: 2px solid transparent;
     transition: all 1s ease;
 }
 
 .box-2 img {
-    border: 2px solid transparent
-    border-radius: 90px;
+    border: 2px solid transparent;
     transition: all 1s ease;
 }
 
 .box-3 img {
-    border: 2px solid transparent
-    border-radius: 90px;
+    border: 2px solid transparent;
     transition: all 1s ease;
 }
   
@@ -221,7 +218,12 @@ img {
     }
 }
 
-@media screen and (max-width: 1100) {
+@media screen and (max-width: 1100px) {
+    .text {
+        margin-left: 10;
+        margin-right: 10px;
+    }
+
     .socialmedia-download {
         padding-right: 20%;
         padding-left: 20%;
@@ -230,31 +232,21 @@ img {
 }
 
 @media screen and (max-width: 800px) {
-    .socialmedia-download {
-        padding-right: 20%;
-        padding-left: 20%;
-        padding-top: 50px;
-    }
-
-    .box-button {
-        margin-bottom: 50px;
-    }
-
-    img {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
     .text {
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: 50px;
+    }
+
+    .socialmedia-download {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 50px;
     }
 
     .skill {
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .container {
