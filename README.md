@@ -1,4 +1,8 @@
 # Projet CV - HTML/CSS  
+
+*Ce projet a été effectué par Thomas SÉGALEN, Switch IT B1 - Campus Academy Angers.*
+*À noter que le responsive de la page web a été vérifié uniquiement à l'aide d'un Samsung Galaxy S8 et de la fonctionnalité responsive du moteur de recherche. De plus, le code a été validé par le service de validation de W3C.*
+*Il aurait été pertinent d'ajouter un formulaire pour l'onglet contact ou même un menu burger à la place de simples boutons, mais je suis resté sur un projet HTML/CSS sans rentrer dans des notions non maîtrisées comme JavaScript.*
   
 ## Sommaire :
 
