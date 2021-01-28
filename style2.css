@@ -31,7 +31,6 @@ a {
 }
 
 .text {
-    display: flex;
     justify-content: center;
     background-color: #90a4ff;
     box-shadow: 10px 10px #5272fd;
