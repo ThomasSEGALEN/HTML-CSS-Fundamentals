@@ -233,6 +233,11 @@ img {
 }
 
 @media screen and (max-width: 800px) {
+    html,
+    body {
+        overflow-y: auto;
+    }
+
     .text {
         margin-left: 10px;
         margin-right: 10px;
@@ -287,4 +292,4 @@ img {
         padding-bottom: 10px;
         color: white;
     }
-  } 
+  }
