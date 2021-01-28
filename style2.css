@@ -151,6 +151,7 @@ div[class*=box] {
 
 .socialmedia {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     padding-right: 20%;
     padding-left: 20%;
@@ -235,12 +236,6 @@ img {
     html,
     body {
         overflow-y: scroll;
-    }
-
-    header {
-        display: -webkit-flex;
-        justify-content: center;
-        margin-bottom: 10px;
     }
 }
 
