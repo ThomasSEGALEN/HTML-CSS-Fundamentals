@@ -232,13 +232,6 @@ img {
     }
 }
 
-@media only screen and (max-width: 800px) {
-    html,
-    body {
-        overflow-y: scroll;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .text {
         margin-left: 10px;
