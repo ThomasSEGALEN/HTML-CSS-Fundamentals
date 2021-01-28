@@ -11,6 +11,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #a4b5ff;
     color: white;
+    overflow-y: auto;
 }
 
 header {
