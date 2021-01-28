@@ -5,13 +5,13 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: auto;
+    overflow-y: auto;
     margin: 0;
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     background-color: #a4b5ff;
     color: white;
-    overflow-y: auto;
 }
 
 header {
@@ -236,6 +236,62 @@ img {
     body {
         overflow-y: scroll;
     }
+
+    .text {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .socialmedia-download {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 50px;
+    }
+
+    img {
+        justify-content: space-evenly;
+        width: 70px;
+        height: 70px;
+    }
+
+    .box-1:hover img {
+        filter: invert(100%);
+        border-radius: 10px;
+        transform:scale(1.15);
+    }
+    
+    .box-2:hover img {
+        filter: invert(100%);
+        border-radius: 10px;
+        transform:scale(1.15);
+    }
+    
+    .box-3:hover img {
+        filter: invert(100%);
+        border-radius: 10px;
+        transform:scale(1.15);
+    }
+
+    .skill {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #ddd;
+    }
+
+    .skills {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+  }
 
 @media  screen and (max-width: 800px) {
     .text {
