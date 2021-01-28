@@ -1,5 +1,7 @@
+/* Import police */
 @import 'https://fonts.googleapis.com/css2?family=Montserrat&display=swap';
 
+/* CSS PC */
 html,
 body {
     width: 100%;
@@ -14,6 +16,12 @@ body {
     color: white;
 }
 
+/* Prendre en compte la bordure */
+* {
+    box-sizing: border-box;
+}
+
+/* Header + Footer */
 header {
     display: flex;
     justify-content: center;
@@ -25,11 +33,13 @@ footer {
     justify-content: center;
 }
 
+/* Enlève le soulignement des liens */
 a {
     text-decoration: none;
     color: white;
 }
 
+/* Profil */
 .text {
     justify-content: center;
     background-color: #90a4ff;
@@ -44,6 +54,7 @@ a {
     padding-right: 10px;
 }
 
+/* Compétences */
 .skill {
     background-color: #90a4ff;
     box-shadow: 10px 10px #5272fd;
@@ -58,10 +69,6 @@ a {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .container {
@@ -94,6 +101,7 @@ a {
     background-color: #f44336;
 }
 
+/* Bouton CV et Contact */
 div[class*=box] {
     height: 33.33%;
     width: 100%; 
@@ -149,15 +157,7 @@ div[class*=box] {
     transform: scale(1,1);
 }
 
-.socialmedia {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-right: 20%;
-    padding-left: 20%;
-    padding-top: 40px;
-}
-
+/* Bouton télécharger */
 .download {
     margin-left: 40px;
     width: 50px;
@@ -166,6 +166,16 @@ div[class*=box] {
 
 .download:hover {
     filter: invert(100%);
+}
+
+/* Réseaux sociaux */
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 40px;
 }
 
 img {
@@ -219,6 +229,7 @@ img {
     }
 }
 
+/* Responsive page réduite */
 @media screen and (max-width: 1100px) {
     .text {
         margin-left: 10px;
@@ -232,6 +243,7 @@ img {
     }
 }
 
+/* Responsive téléphone (testé uniquement sur Samsung Galaxy S8 et page responsive web) */
 @media screen and (max-width: 800px) {
     .text {
         margin-left: 10px;
