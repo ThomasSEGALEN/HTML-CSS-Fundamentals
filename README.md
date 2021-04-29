@@ -26,11 +26,7 @@ N’oubliez pas de valider votre **HTML** et votre **CSS** grâce aux **outils d
   
 Vous devrez par ailleurs insérer en commentaire en haut de votre fichier HTML le **lien de la source (ou les sources)** dont vous vous êtes inspiré pour réaliser votre CV.  
 Vous devrez bien évidemment vous servir de **GIT**, et effectuer des **commits régulièrement** pour voir l’avancement de votre travail.  
-<<<<<<< HEAD
 Vous devrez m’envoyer par **mail** à l’adresse *“k.niel.pro@gmail.com”*, de manière professionnelle, un **lien vers votre github** et vers le **repository de votre code**.  
-=======
-Vous devrez m’envoyer par **mail** à l’adresse *“k.niel.pro@gmail.com”*, de manière  professionnelle, un **lien vers votre github** et vers le **repository de votre code**.  
->>>>>>> 09c6663d9d108ba2cbb551e5176d708c7f4d64be
   
 ## 3. Notation :  
 Avant toute chose, sachez qu’il existe de nombreux **templates de CV HTML/CSS** gratuits en ligne. Je le sais également ! Sachez aussi qu’il est très simple de distinguer un code écrit par un étudiant d’un code écrit par un professionnel, et que toute tentative de **plagiat** sera soldée par un beau zéro qui arborera votre bulletin de note !  
